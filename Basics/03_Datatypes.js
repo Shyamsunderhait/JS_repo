@@ -52,3 +52,28 @@ const myFunction = function(){
 
 console.log(typeof myObj)
 
+
+//======== Memory Management =====
+
+// Stack (Primitive) , Heap (Non Primitive)
+
+let myInstagramId = "sammyjonesig"
+
+let anotherInstaId = myInstagramId
+anotherInstaId = "shyamsunderhait"
+console.log(myInstagramId);
+console.log(anotherInstaId);
+
+let userOne = {
+    name:"shyam",
+    upi:"shyamsunderhait@okhdfcbank",
+    email:"hsadjfksda"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sammyjones@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
