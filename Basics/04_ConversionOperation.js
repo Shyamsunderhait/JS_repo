@@ -51,3 +51,5 @@ let gameCounter = 100
 //gameCounter++ postfix
 ++ gameCounter // prefix
 console.log(gameCounter);
+
+
