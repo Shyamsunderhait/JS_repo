@@ -16,6 +16,19 @@ let march = ()=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //function as a parameter and anonymous
 function rajivtalvar (id1, id2){
     id2(id1)
@@ -34,6 +47,9 @@ let ds = 'subhashree'
 
 // primitive = stack non primitive = heap
 //primitive copy non primitvive = reference
+
+
+
 
 
 
