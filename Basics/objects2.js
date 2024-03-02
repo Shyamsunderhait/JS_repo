@@ -16,3 +16,14 @@ const regUser = {
     }
 }
 console.log(regUser.fullName.username.firstname);
+
+const linkedInuser = {
+    job:'cleaning Enginneer',
+    salary:34444,
+    period:'2 months'
+}
+
+let obtotal = Object.assign({},instaUser,linkedInuser);// concatinate two objects// target and source
+
+
+console.log(obtotal);
